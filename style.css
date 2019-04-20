@@ -1,0 +1,25 @@
+header{
+    font-size: 200px;
+    color: white;
+    text-align:center;
+    font-family: 'Quicksand', sans-serif;
+}
+body{
+    background-color: red;
+}
+.submit{
+    text-align:center;
+    font-size:50px;
+}
+button{
+    font-size: 30px;
+    border: 1px solid black;
+    color:white;
+    background-color:black;
+    border-radius: 3px;
+}
+form{
+    text-align:center;
+    margin:30px;
+    font-family: 'Quicksand', sans-serif;
+}
