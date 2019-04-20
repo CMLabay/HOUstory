@@ -22,7 +22,7 @@ function displayLogin(){
             <input type='text' name='username' id='username'>
             <label for 'password'>Password</label>
             <input type='text' name='password' id='password'>
-            <button type='submit'>Login</button>
+            <button type='submit'>Login!</button>
         </form>`
     );
 }
