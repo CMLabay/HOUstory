@@ -4,8 +4,9 @@ header{
     text-align:center;
     font-family: 'Quicksand', sans-serif;
 }
-body{
-    background-color: red;
+html, body{
+  margin: 0;
+  padding: 0;
 }
 .submit{
     text-align:center;
@@ -22,4 +23,37 @@ form{
     text-align:center;
     margin:30px;
     font-family: 'Quicksand', sans-serif;
+}
+
+nav {
+  background-color: #1f2630;
+  display: inline-block;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
+
+nav > a {
+  color: #e1e8f4;
+  font-size: 2em;
+  padding: 30px;
+  text-decoration: none;
+  -webkit-transition: color 0.5s;
+  -moz-transition:    color 0.5s;
+  -ms-transition:     color 0.5s;
+  -o-transition:      color 0.5s;
+  transition:         color 0.5s;
+}
+
+nav > a:hover {
+  color: #22658e;
+}
+
+#sunsetVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
 }

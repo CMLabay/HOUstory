@@ -9,13 +9,22 @@
         <link href="style.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <header class="heading">HOUstory</header>
-        <div class="submit">
+      <video autoplay muted loop id="sunsetVideo">
+        <source src="assets/videos/sunset.mp4" type="video/mp4">
+      </video>
+      <div class="container">
+        <section id="home" class="home">
+          <nav class="nav-wrapper">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
             <button id="login-btn" class="login-btn">Login</button>
             <button id="signup-btn" class="signup-btn">Sign Up</button>
-        </div>
+          </nav>
+        </section>
+        <header class="heading">HOUstory</header>
         <section class="submit-form"></section>
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
         <script src="index.js"></script>
+      </div>
     </body>
 </html>
