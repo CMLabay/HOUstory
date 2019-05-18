@@ -7,6 +7,12 @@ header{
 html, body{
   margin: 0;
   padding: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.navbar-custom {
+  background-color: #1B95E0;
+  border-color: #1B95E0;
 }
 
 button{
@@ -123,4 +129,28 @@ nav > a:hover {
 
 .neighborhood-btn {
   color: white;
+}
+=======
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.results {
+	border: 1px solid #346473;
+	padding: 20px;
+	margin: 20px 50px;
+  display: block;
+}
+
+.name {
+  font-weight: bold
+}
+
+.card-img-top {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
 }
