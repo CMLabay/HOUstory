@@ -81,3 +81,21 @@ nav > a:hover {
   min-height: 100%;
   z-index: -1;
 }
+
+#user-page {
+    background-color: gray;
+}
+/*Last 5 visited list*/
+ul l5{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 150px;
+  height: 90%;
+  float: left;
+  background-color: rgba(50,50,50,0.3);
+  position: fixed;
+  overflow: auto;
+  font-family: fantasy;
+  font-weight: bold;
+}
