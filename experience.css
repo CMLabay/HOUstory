@@ -1,0 +1,31 @@
+body{
+    text-align:center;
+    font-family: 'Quicksand', sans-serif;
+/*     background-image: url("welovehouston.jpg");
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    background-size: cover; */
+}
+.choices{
+    padding:30px;
+}
+p{
+    font-weight: bold;
+}
+.selection{
+    font-size:35px;
+    margin-bottom:0;
+}
+.detail{
+    font-size:15px;
+    padding-top:0;
+}
+
+@media only screen and (min-width: 1000px) {
+    .left-off{
+        float:left;
+    }
+    .start-new{
+        float:right;
+    }
+}
