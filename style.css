@@ -28,6 +28,7 @@ nav {
   position: fixed;
   text-align: center;
   width: 100%;
+  top: 0;
 }
 
 nav > a {
@@ -86,7 +87,7 @@ nav > a:hover {
     background-color: gray;
 }
 /*Last 5 visited list*/
-ul l5{
+.last-visited{
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -98,4 +99,28 @@ ul l5{
   overflow: auto;
   font-family: fantasy;
   font-weight: bold;
+}
+
+/*Neighborhood webpage classes/ids */
+#neighborhood-body {
+  background-color: slategrey;
+}
+
+#select-neighborhood {
+  padding-top: 5%;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 30px;
+}
+#neighborhood-border {
+  border-style: solid;
+  padding: 5%;
+  text-align: center;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-bottom: 35%;
+}
+
+.neighborhood-btn {
+  color: white;
 }
