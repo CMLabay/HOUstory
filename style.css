@@ -34,6 +34,7 @@ nav {
   position: fixed;
   text-align: center;
   width: 100%;
+  top: 0;
 }
 
 nav > a {
@@ -87,6 +88,49 @@ nav > a:hover {
   min-height: 100%;
   z-index: -1;
 }
+
+#user-page {
+    background-color: gray;
+}
+/*Last 5 visited list*/
+.last-visited{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 150px;
+  height: 90%;
+  float: left;
+  background-color: rgba(50,50,50,0.3);
+  position: fixed;
+  overflow: auto;
+  font-family: fantasy;
+  font-weight: bold;
+}
+
+/*Neighborhood webpage classes/ids */
+#neighborhood-body {
+  background-color: slategrey;
+}
+
+#select-neighborhood {
+  padding-top: 5%;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 30px;
+}
+#neighborhood-border {
+  border-style: solid;
+  padding: 5%;
+  text-align: center;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-bottom: 35%;
+}
+
+.neighborhood-btn {
+  color: white;
+}
+=======
 .center {
   display: block;
   margin-left: auto;
