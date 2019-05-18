@@ -10,6 +10,11 @@ html, body{
   font-family: 'Quicksand', sans-serif;
 }
 
+.navbar-custom {
+  background-color: #1B95E0;
+  border-color: #1B95E0;
+}
+
 button{
     font-size: 30px;
     border: 1px solid black;
@@ -100,6 +105,8 @@ nav > a:hover {
   font-weight: bold
 }
 
-/* .card {
-  min-height: 475px;
-} */
+.card-img-top {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}
