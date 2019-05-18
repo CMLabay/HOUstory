@@ -1,169 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width-device-width">
-        <title>HOUstory</title>
-        <meta name="description" content="Your city, your history.">
-        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-        <link href="style.css" rel="stylesheet" type="text/css" />
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        <script src="byNeighborhood.js"></script>
-    </head>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width">
+	<title>HOUstory: Visiting Heights</title>
+	<meta name="description" content="Your city, your history.">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+
 <body class="container-fluid">
-	<div id = "content">
-        <header>
-            <h2  style="color:black;font-size: 0.25em"> Heights Tour </h2>
-        </header>
-        <!-- Map -->
-             
-        <img class="center" style="margin-bottom: 50px" src='https://maps.googleapis.com/maps/api/staticmap?center=29.79237953,-95.39725756&zoom=15&size=600x600&markers=color:blue%7Clabel:1%7C29.80367816,-95.39634848&markers=color:blue%7Clabel:2%7C29.79968843,-95.39869695&markers=color:blue%7Clabel:3%7C29.79282887,-95.39715951&markers=color:blue%7Clabel:4%7C29.78543816,-95.39496749&markers=color:blue%7Clabel:5%7C29.79470171,-95.39730094&markers=color:blue%7Clabel:6%7C29.78360886,-95.3965195&markers=color:blue%7Clabel:7%7C29.78808392,-95.39811355&markers=color:blue%7Clabel:8%7C29.79237953,-95.39725756&markers=color:blue%7Clabel:9%7C29.78989202,-95.39450467&key=AIzaSyBPSY68LSzVPpJcHHQ6mqrSzzeFV0c6NNg'></img>
+	<div id="content">
+		<header>
+			<h2 style="color:black;font-size: 0.25em"> Heights Tour </h2>
+		</header>
 
-        <!-- Results -->
-        <!-- <div class = "results">
-            <div>1846 Harvard St</div>
-            <div>Organized in 1900 to support any literary and scientific undertaking; the maintenance of a library; and the promoting of painting, music and other fine arts.</div>
-        </div>
+		<!-- Map -->
+		<div>
+			<img class="center" style="margin-bottom: 50px" src='https://maps.googleapis.com/maps/api/staticmap?center=29.79237953,-95.39725756&zoom=14.5&size=400x400&markers=color:red%7Clabel:1%7C29.80367816,-95.39634848&markers=color:red%7Clabel:2%7C29.79968843,-95.39869695&markers=color:red%7Clabel:4%7C29.79282887,-95.39415951&markers=color:red%7Clabel:8%7C29.78543816,-95.39496749&markers=color:red%7Clabel:3%7C29.79470171,-95.39730094&markers=color:red%7Clabel:9%7C29.78360886,-95.3965195&markers=color:red%7Clabel:7%7C29.78808392,-95.39811355&markers=color:red%7Clabel:5%7C29.79237953,-95.39725756&markers=color:red%7Clabel:6%7C29.78989202,-95.39450467&key=AIzaSyBPSY68LSzVPpJcHHQ6mqrSzzeFV0c6NNg'></img>
+		</div>
 
-        <div class = "results">
-            <div>Historic Site Name</div>
-            <div>Description of Historic Site</div>
-        </div> -->
+		<div class="card-group">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="card h-100">
+						<img class="card-img-top" src="http://lorempixel.com/600/300/cats" alt="Height's Woman's Club" />
+						<div class="card-body">
+							<h5 class="card-title">
+								<img src="http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=1|FE6256|000000" /> Houston Height's Woman's Club Building
+							</h5>
+							<p class="card-text">1846 Harvard St</p>
+							<p class="card-text">Organized in 1900 to support any literary and scientific undertaking; the maintenance of a library; and the promoting of painting, music and other fine arts.</p>
+						</div>
+					</div>
+				</div>
 
-        <!-- card groups -->
-        <div class="card-group">
-        <div class="row">
-            <div class="col-sm-4">
-                <div class="card">
-                    <img class="card-img-top" src="http://lorempixel.com/600/300/cats" alt="Height's Woman's Club"/>
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <img src="http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=1|FE6256|000000"/>
-                            Houston Height's Woman's Club Building
-                        </h5>
-                        <p class="card-text">1846 Harvard St</p>
-                        <p class="card-text">Organized in 1900 to support any literary and scientific undertaking; the maintenance of a library; and the promoting of painting, music and other fine arts.</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-sm-4">
-                <div class="card">
-                    <img class="card-img-top" src="http://lorempixel.com/600/300/cats" alt="Height's Church of Christ">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                                <img src="http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=2|FE6256|000000"/>
-                                Height's Church of Christ
-                        </h5>
-                    <p class="card-text">1548 Heights Blvd</p>
-                        <p class="card-text">Organized in 1900 to support any literary and scientific undertaking; the maintenance of a library; and the promoting of painting, music and other fine arts.</p>
-                    </div>
-                </div>
-            </div>
+				<div class="col-sm-4">
+					<div class="card h-100">
+						<img class="card-img-top" src="http://lorempixel.com/600/300/cats" alt="Height's Church of Christ">
+						<div class="card-body">
+							<h5 class="card-title">
+								<img src="http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=2|FE6256|000000" /> Height's Church of Christ
+							</h5>
+							<p class="card-text">1548 Heights Blvd</p>
+							<p class="card-text">Built in 1924 by Houston architect Alfred Finn, this building of Renaissance Revival architecture and a Georgian influence boasts stained glass windows and custom pews imported from Germany.</p>
+						</div>
+					</div>
+				</div>
 
-            <div class="col-sm-4">
-                    <div class="card">
-                        <img class="card-img-top" src="http://lorempixel.com/600/300/cats" alt="Height's Woman's Club"/>
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                <img src="http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=3|FE6256|000000"/>
-                                Houston Height's Woman's Club Building
-                            </h5>
-                            <p class="card-text">1846 Harvard St</p>
-                            <p class="card-text">Organized in 1900 to support any literary and scientific undertaking; the maintenance of a library; and the promoting of painting, music and other fine arts.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-sm-4">
-                    <div class="card">
-                        <img class="card-img-top" src="http://lorempixel.com/600/300/cats" alt="Height's Church of Christ">
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                    <img src="http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=4|FE6256|000000"/>
-                                    Height's Church of Christ
-                            </h5>
-                        <p class="card-text">1548 Heights Blvd</p>
-                            <p class="card-text">Organized in 1900 to support any literary and scientific undertaking; the maintenance of a library; and the promoting of painting, music and other fine arts.</p>
-                        </div>
-                    </div>
-                </div>
+				<div class="col-sm-4">
+					<div class="card h-100">
+						<img class="card-img-top" src="http://lorempixel.com/600/300/cats" alt="Houston Public Library - Heights Branch" />
+						<div class="card-body">
+							<h5 class="card-title">
+								<img src="http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=3|FE6256|000000" /> Houston Public Library - Heights Branch
+							</h5>
+							<p class="card-text">1302 Heights Blvd</p>
+							<p class="card-text">Organized in 1900 to support any literary and scientific undertaking; the maintenance of a library; and the promoting of painting, music and other fine arts.</p>
+						</div>
+					</div>
+				</div>
 
-                <div class="col-sm-4">
-                        <div class="card">
-                            <img class="card-img-top" src="http://lorempixel.com/600/300/cats" alt="Height's Woman's Club"/>
-                            <div class="card-body">
-                                <h5 class="card-title">
-                                    <img src="http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=5|FE6256|000000"/>
-                                    Houston Height's Woman's Club Building
-                                </h5>
-                                <p class="card-text">1846 Harvard St</p>
-                                <p class="card-text">Organized in 1900 to support any literary and scientific undertaking; the maintenance of a library; and the promoting of painting, music and other fine arts.</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-sm-4">
-                        <div class="card">
-                            <img class="card-img-top" src="http://lorempixel.com/600/300/cats" alt="Height's Church of Christ">
-                            <div class="card-body">
-                                <h5 class="card-title">
-                                        <img src="http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=6|FE6256|000000"/>
-                                        Height's Church of Christ
-                                </h5>
-                            <p class="card-text">1548 Heights Blvd</p>
-                                <p class="card-text">Organized in 1900 to support any literary and scientific undertaking; the maintenance of a library; and the promoting of painting, music and other fine arts.</p>
-                            </div>
-                        </div>
-                    </div>
+				<div class="col-sm-4">
+					<div class="card h-100">
+						<img class="card-img-top" src="http://lorempixel.com/600/300/cats" alt="Houston Heights City Hall and Fire Station">
+						<div class="card-body">
+							<h5 class="card-title">
+								<img src="http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=4|FE6256|000000" /> Houston Heights City Hall and Fire Station
+							</h5>
+							<p class="card-text">107 W 12th St</p>
+							<p class="card-text">Organized in 1900 to support any literary and scientific undertaking; the maintenance of a library; and the promoting of painting, music and other fine arts.</p>
+						</div>
+					</div>
+				</div>
 
-                    <div class="col-sm-4">
-                            <div class="card">
-                                <img class="card-img-top" src="http://lorempixel.com/600/300/cats" alt="Height's Woman's Club"/>
-                                <div class="card-body">
-                                    <h5 class="card-title">
-                                        <img src="http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=7|FE6256|000000"/>
-                                        Houston Height's Woman's Club Building
-                                    </h5>
-                                    <p class="card-text">1846 Harvard St</p>
-                                    <p class="card-text">Organized in 1900 to support any literary and scientific undertaking; the maintenance of a library; and the promoting of painting, music and other fine arts.</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-sm-4">
-                            <div class="card">
-                                <img class="card-img-top" src="http://lorempixel.com/600/300/cats" alt="Height's Church of Christ">
-                                <div class="card-body">
-                                    <h5 class="card-title">
-                                            <img src="http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=8|FE6256|000000"/>
-                                            Height's Church of Christ
-                                    </h5>
-                                <p class="card-text">1548 Heights Blvd</p>
-                                    <p class="card-text">Organized in 1900 to support any literary and scientific undertaking; the maintenance of a library; and the promoting of painting, music and other fine arts.</p>
-                                </div>
-                            </div>
-                        </div>
+				<div class="col-sm-4">
+					<div class="card h-100">
+						<img class="card-img-top" src="http://lorempixel.com/600/300/cats" alt="Forrest A Nairn House" />
+						<div class="card-body">
+							<h5 class="card-title">
+								<img src="http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=5|FE6256|000000" /> Forrest A Nairn House
+							</h5>
+							<p class="card-text">1148 Heights Blvd</p>
+							<p class="card-text">Organized in 1900 to support any literary and scientific undertaking; the maintenance of a library; and the promoting of painting, music and other fine arts.</p>
+						</div>
+					</div>
+				</div>
 
-                        <div class="col-sm-4">
-                                <div class="card">
-                                    <img class="card-img-top" src="http://lorempixel.com/600/300/cats" alt="Height's Woman's Club"/>
-                                    <div class="card-body">
-                                        <h5 class="card-title">
-                                            <img src="http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=9|FE6256|000000"/>
-                                            Houston Height's Woman's Club Building
-                                        </h5>
-                                        <p class="card-text">1846 Harvard St</p>
-                                        <p class="card-text">Organized in 1900 to support any literary and scientific undertaking; the maintenance of a library; and the promoting of painting, music and other fine arts.</p>
-                                    </div>
-                                </div>
-                            </div>
-    
-        </div>  <!-- end row -->
-    </div>
-    </div>
+				<div class="col-sm-4">
+					<div class="card h-100">
+						<img class="card-img-top" src="http://lorempixel.com/600/300/cats" alt="Moses A Clanton House">
+						<div class="card-body">
+							<h5 class="card-title">
+								<img src="http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=6|FE6256|000000" /> Moses A Clanton House
+							</h5>
+							<p class="card-text">1025 Arlington St</p>
+							<p class="card-text">Organized in 1900 to support any literary and scientific undertaking; the maintenance of a library; and the promoting of painting, music and other fine arts.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-4">
+					<div class="card h-100">
+						<img class="card-img-top" src="http://lorempixel.com/600/300/cats" alt="Jay L Durham House" />
+						<div class="card-body">
+							<h5 class="card-title">
+								<img src="http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=7|FE6256|000000" /> Jay L Durham House
+							</h5>
+							<p class="card-text">921 Heights Blvd</p>
+							<p class="card-text">Organized in 1900 to support any literary and scientific undertaking; the maintenance of a library; and the promoting of painting, music and other fine arts.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-4">
+					<div class="card h-100">
+						<img class="card-img-top" src="http://lorempixel.com/600/300/cats" alt="Colburn House">
+						<div class="card-body">
+							<h5 class="card-title">
+								<img src="http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=8|FE6256|000000" /> Colburn House
+							</h5>
+							<p class="card-text">301 E 8th Street</p>
+							<p class="card-text">Organized in 1900 to support any literary and scientific undertaking; the maintenance of a library; and the promoting of painting, music and other fine arts.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-4">
+					<div class="card h-100">
+						<img class="card-img-top" src="http://lorempixel.com/600/300/cats" alt=" Wimberly House" />
+						<div class="card-body">
+							<h5 class="card-title">
+								<img src="http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=9|FE6256|000000" /> Wimberly House
+							</h5>
+							<p class="card-text">703 Harvard St</p>
+							<p class="card-text">Organized in 1900 to support any literary and scientific undertaking; the maintenance of a library; and the promoting of painting, music and other fine arts.</p>
+						</div>
+					</div>
+				</div>
+
+			</div><!-- end row -->
+		</div><!-- card group-->
+	</div>
+	</div>
+	</div>
+	<!-- end content -->
+
 </body>
+
 </html>
