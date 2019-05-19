@@ -3,6 +3,7 @@
 </p>
 
 # HOUstory: *Our city, your story*
+[DevPost](https://houstonhackathon2019.devpost.com/)
 
 ## Value proposition
 Promote Houston as a city with rich, historical backgrounds and landmarks via mobile-guided tours. 
@@ -21,9 +22,9 @@ Vanilla JS, Bootstrap, CSS, Jquery. We can refactor to the full stack preference
 - Reach out to local businesses and stakeholders to gauge interest
 - Step-by-step navigation between multiple sites
 
-## Team members
+## Sketch City Houston Hackathon 2019 Team members
 <p align="center">
-  <img src="/assets/images/team.jpeg" width="450" title="HOUstory">
+  <img src="/assets/images/IMG_2001.jpg" width="450" title="HOUstory">
 </p>
 
 [Daniel](https://github.com/raidenandsolid), 
