@@ -14,25 +14,30 @@
             <h2 class='title'>Pick up where you left off</h2>
             <p class='selection'>Heights Historic Tour</p>
             <div class="w3-light-grey">
-                    <progress value = "5" max = "9"/>
+              <div class="progress">
+                <div class="progress-bar progress-left-off aria-valuenow="0""/>
+              </div>
             </div>
             <p class='detail'>5 out of 9 locations visited</p>
             <p class='selection'>River Oaks Historic Tour</p>
             <div class="w3-light-grey">
-                    <progress value = "3" max = "18"/>
+              <div class="progress">
+                <div class="progress-bar progress-visited aria-valuenow="0""/>
+              </div>
             </div>
             <p class='detail'>3 out of 18 locations visited</p>
         </section>
         <section class='start-new choices'>
             <h2 class='title'>Start a new experience</h2>
-            <p class='selection'>By Neighborhood</p>
-            <a href="http://www.yahoo.com">By Neighborhood</a> 
+            <a href="byNeighborhood.html" class="exp-button"><p class='selection'>By Neighborhood</p></a>
             <p class='detail'>Downtown, Midtown, Montrose...</p>
-            <p class='selection'>By Interest Area</p>
+            <a href="experience.html" class="exp-button"><p class='selection'>By Interest Area</p></a>
             <p class='detail'>Historical, Food & Wine, Way of Life..</p>
-            <p class='selection'>By Mode of Transport</p>
+            <a href="experience.html" class="exp-button"><p class='selection'>By Mode of Transport</p></a>
             <p class='detail'>Walking, Biking, Driving, Segway, Waterway...</p>
-            <p class='selection'>By Distance</p>
+            <a href="experience.html" class="exp-button"><p class='selection'>By Distance</p></a>
         </section>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="experience.js"></script>
     </body>
 </html>

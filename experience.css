@@ -17,6 +17,18 @@ p{
     padding-top:0;
 }
 
+.exp-button{
+  color: black;
+  -webkit-transition: color 0.5s;
+  -moz-transition:    color 0.5s;
+  -ms-transition:     color 0.5s;
+  -o-transition:      color 0.5s;
+  transition:         color 0.5s;
+}
+
+a:hover{
+  text-decoration: none;
+}
 @media only screen and (min-width: 1000px) {
     .left-off{
         float:left;
