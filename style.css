@@ -125,6 +125,13 @@ h2, .card-body, .login{
   color: black;
 }
 .neighborhood-border > a:hover, .card-title > a:hover {
+text-decoration: none;
+}
+.selection{
+  color:black;
+}
+.selection:hover {
+  color:#007bff;
   text-decoration: none;
 }
 .neighborhood-btn {
