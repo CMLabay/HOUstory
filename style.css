@@ -121,7 +121,11 @@ h2, .card-body, .login{
   margin-bottom: 35%;
 }
 
-.neighborhood-border > a:hover {
+.selection{
+  color:black;
+}
+.selection:hover {
+  color:#22658e;
   text-decoration: none;
 }
 .neighborhood-btn {
