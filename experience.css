@@ -1,0 +1,39 @@
+body{
+    text-align:center;
+    font-family: 'Quicksand', sans-serif;
+}
+.choices{
+    padding:30px;
+}
+p{
+    font-weight: bold;
+}
+.selection{
+    font-size:35px;
+    margin-bottom:0;
+}
+.detail{
+    font-size:15px;
+    padding-top:0;
+}
+
+.exp-button{
+  color: black;
+  -webkit-transition: color 0.5s;
+  -moz-transition:    color 0.5s;
+  -ms-transition:     color 0.5s;
+  -o-transition:      color 0.5s;
+  transition:         color 0.5s;
+}
+
+a:hover{
+  text-decoration: none;
+}
+@media only screen and (min-width: 1000px) {
+    .left-off{
+        float:left;
+    }
+    .start-new{
+        float:right;
+    }
+}
