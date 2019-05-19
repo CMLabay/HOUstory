@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="https://photomal.com/wp-content/uploads/2017/03/Houstoncl-300x300.png" width="450" title="HOUstory">
+  <a href = "https://houstory.herokuapp.com/index.html" ><img src="https://photomal.com/wp-content/uploads/2017/03/Houstoncl-300x300.png" width="450" title="HOUstory"> </a>
 </p>
 
 # HOUstory: *Our city, your story*
-[DevPost](https://houstonhackathon2019.devpost.com/)
+[HOUstory](https://houstory.herokuapp.com/)
 
 ## Value proposition
 Promote Houston as a city with rich, historical backgrounds and landmarks via mobile-guided tours. 
