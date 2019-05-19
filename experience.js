@@ -4,7 +4,7 @@ function move() {
       if(width <= 225){
         $('.progress-left-off').attr('aria-valuenow', width).css('width', width);
       }
-    }, 750);
+    }, 20);
     }
 
     for(let width = 1; width <= 50; width++){
@@ -12,7 +12,7 @@ function move() {
         if(width <= 50){
           $('.progress-visited').attr('aria-valuenow', width).css('width', width);
         }
-      }, 750);
+      }, 10);
   }
 }
 $(document).ready(move());
