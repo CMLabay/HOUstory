@@ -16,6 +16,9 @@ p{
     font-size:15px;
     padding-top:0;
 }
+.left-off, .start-new{
+    font-family: 'Quicksand', sans-serif;
+} 
 
 .exp-button{
   color: black;
@@ -33,7 +36,5 @@ a:hover{
     .left-off{
         float:left;
     }
-    .start-new{
-        float:right;
-    }
+
 }
