@@ -8,24 +8,12 @@ html, body{
   margin: 0;
   padding: 0;
   font-family: 'Quicksand', sans-serif;
+  color: white;
 }
 
 .navbar-custom {
-  background-color: #1B95E0;
-  border-color: #1B95E0;
-}
-
-button{
-    font-size: 30px;
-    border: 1px solid black;
-    color:white;
-    background-color:black;
-    border-radius: 3px;
-}
-form{
-    text-align:center;
-    margin:30px;
-    font-family: 'Quicksand', sans-serif;
+  background-color: #1f2630;
+  border-color: #1f2630;
 }
 
 nav {
@@ -61,7 +49,8 @@ nav > a:hover {
 .hidden {
   display: none;
 }
-.login {
+
+/* .login {
     text-align: center;
     display: block;
     width: 100%;
@@ -79,7 +68,7 @@ nav > a:hover {
 
 .submit-form {
   text-align: center;
-}
+} */
 #sunsetVideo {
   position: fixed;
   right: 0;
@@ -118,8 +107,9 @@ nav > a:hover {
   font-family: 'Quicksand', sans-serif;
   font-size: 30px;
 }
+
 #neighborhood-border {
-  border-style: solid;
+  /* border-style: solid; */
   padding: 5%;
   text-align: center;
   margin-left: 35%;
@@ -130,19 +120,12 @@ nav > a:hover {
 .neighborhood-btn {
   color: white;
 }
-=======
+
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-}
-
-.results {
-	border: 1px solid #346473;
-	padding: 20px;
-	margin: 20px 50px;
-  display: block;
 }
 
 .name {

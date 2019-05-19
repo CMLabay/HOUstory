@@ -12,24 +12,29 @@
 	      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </head>
+
+    
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="./index.html">HOUStory</a>
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="./index.html">HOUStory <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="./neighborhood.html">Neighborhood</a>
+    </div>
+  </nav>
+
     <!-- Main Display -->
     <body id="neighborhood-body">
-      <section id="home" class="home">
-        <nav class="nav-wrapper">
-          <a href="#home">Home</a>
-          <a href="#about">About</a>
-        </nav>
-      </section>
       <div>
         <header>
           <h1 id="select-neighborhood">Select Neighborhood</h1>
         </header>
-        <section id="neighborhood-border" class="neighborhood-border">
-          <a href="byneighborhood.html"><button type="button" class="btn btn-primary btn-lg btn-block neighborhood-btn">Heights</button></a><br>
+        
+        <div id="neighborhood-border" class="neighborhood-border">
+          <a href="byNeighborhood.html"><button type="button" class="btn btn-primary btn-lg btn-block neighborhood-btn">Heights</button></a><br>
           <button type="button" class="btn btn-primary btn-lg btn-block">River Oaks</button><br>
           <button type="button" class="btn btn-primary btn-lg btn-block">Bellaire</button><br>
           <button type="button" class="btn btn-primary btn-lg btn-block">Memorial</button>
-        </section>
+        </div>
       </div>
     </body>
 </html>
