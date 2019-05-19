@@ -22,8 +22,29 @@ Vanilla JS, Bootstrap, CSS, Jquery. We can refactor to the full stack preference
 - Step-by-step navigation between multiple sites
 
 ## Team members
-[Christina](https://github.com/shhmavel), 
-[CodeFay](https://github.com/CodeFay), 
+<p align="center">
+  <img src="/assets/images/team.jpeg" width="450" title="HOUstory">
+</p>
+
 [Daniel](https://github.com/raidenandsolid), 
 [Voxenn](https://github.com/Voxenn), 
+[CodeFay](https://github.com/CodeFay), 
+[Christina](https://github.com/shhmavel), 
 Dhruv, Jaison
+
+## Screenshares
+<p align="center">
+  <img src="/assets/images/index.png" width="450" title="HOUstory Index">
+</p>
+<p align="center">
+  <img src="/assets/images/experienceView.png" width="450" title="HOUstory Experience">
+</p>
+<p align="center">
+  <img src="/assets/images/neighborhoodView.png" width="450" title="HOUstory neighborhood View">
+</p>
+<p align="center">
+  <img src="/assets/images/tourMap.png" width="450" title="HOUstory tourMap">
+</p>
+<p align="center">
+  <img src="/assets/images/buildings.png" width="450" title="HOUstory buildings">
+</p>
