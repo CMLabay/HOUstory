@@ -3,7 +3,7 @@ body{
     font-family: 'Quicksand', sans-serif;
 }
 .choices{
-    padding:30px;
+    padding-left:100px;
 }
 p{
     font-weight: bold;

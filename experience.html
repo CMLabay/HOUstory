@@ -1,43 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width-device-width">
-        <title>Choose Experience</title>
-        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        <link href="experience.css" rel="stylesheet" type="text/css" />
-    </head>
-    <body>
-        <section class='left-off choices'>
-            <h2 class='title'>Pick up where you left off</h2>
-            <p class='selection'>Heights Historic Tour</p>
-            <div class="w3-light-grey">
-              <div class="progress">
-                <div class="progress-bar progress-left-off aria-valuenow="0""/>
-              </div>
-            </div>
-            <p class='detail'>5 out of 9 locations visited</p>
-            <p class='selection'>River Oaks Historic Tour</p>
-            <div class="w3-light-grey">
-              <div class="progress">
-                <div class="progress-bar progress-visited aria-valuenow="0""/>
-              </div>
-            </div>
-            <p class='detail'>3 out of 18 locations visited</p>
-        </section>
-        <section class='start-new choices'>
-            <h2 class='title'>Start a new experience</h2>
-            <a href="byNeighborhood.html" class="exp-button"><p class='selection'>By Neighborhood</p></a>
-            <p class='detail'>Downtown, Midtown, Montrose...</p>
-            <a href="experience.html" class="exp-button"><p class='selection'>By Interest Area</p></a>
-            <p class='detail'>Historical, Food & Wine, Way of Life..</p>
-            <a href="experience.html" class="exp-button"><p class='selection'>By Mode of Transport</p></a>
-            <p class='detail'>Walking, Biking, Driving, Segway, Waterway...</p>
-            <a href="experience.html" class="exp-button"><p class='selection'>By Distance</p></a>
-        </section>
-        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-        <script type="text/javascript" src="experience.js"></script>
-    </body>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width">
+	<title>Choose Experience</title>
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	<link href="experience.css" rel="stylesheet" type="text/css" />
+	<link rel='icon' href='/assets/favicon.ico' type='image/x-icon' />
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+	<a class="navbar-brand" href="./index.html">HOUStory</a>
+	<div class="navbar-nav">
+		<a class="nav-item nav-link active" href="./index.html">HOUStory <span class="sr-only">(current)</span></a>
+		<a class="nav-item nav-link" href="./neighborhood.html">Neighborhood</a>
+	</div>
+</nav>
+
+<body>
+	<div class="row" style="padding-top:50px;">
+		<div class="col-sm-6">
+			<section class='left-off choices'>
+				<h2 class='title'>Pick up where you left off</h2>
+				<p class='selection'>Heights Historic Tour</p>
+				<div class="w3-light-grey">
+					<div class="progress">
+						<div class="progress-bar progress-left-off aria-valuenow=" 0 ""/>
+					</div>
+				</div>
+				<p class='detail'>5 out of 9 locations visited</p>
+				<p class='selection'>River Oaks Historic Tour</p>
+				<div class="w3-light-grey">
+					<div class="progress">
+						<div class="progress-bar progress-visited aria-valuenow=" 0 ""/>
+					</div>
+				</div>
+				<p class='detail'>3 out of 18 locations visited</p>
+			</section>
+    </div>
+    
+		<div class="col-sm-6">
+    	<section>
+				<h2 class='title'>Start a new experience</h2>
+				<a href="neighborhood.html" class="exp-button">
+					<p class='selection'>By Neighborhood</p>
+				</a>
+				<p class='detail'>Downtown, Midtown, Montrose...</p>
+				<a href="experience.html" class="exp-button">
+					<p class='selection'>By Interest Area</p>
+				</a>
+				<p class='detail'>Historical, Food & Wine, Way of Life..</p>
+				<a href="experience.html" class="exp-button">
+					<p class='selection'>By Mode of Transport</p>
+				</a>
+				<p class='detail'>Walking, Biking, Driving, Segway, Waterway...</p>
+				<a href="experience.html" class="exp-button">
+					<p class='selection'>By Distance</p>
+				</a>
+			</section>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="experience.js"></script>
+</body>
+
 </html>
