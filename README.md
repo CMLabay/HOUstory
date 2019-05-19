@@ -26,4 +26,4 @@ Vanilla JS, Bootstrap, CSS, Jquery. We can refactor to the full stack preference
 [CodeFay](https://github.com/CodeFay), 
 [Daniel](https://github.com/raidenandsolid), 
 [Voxenn](https://github.com/Voxenn), 
-Dhruv
+Dhruv, Jaison
