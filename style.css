@@ -1,5 +1,5 @@
 header{
-    font-size: 200px;
+    font-size: 12em;
     color: white;
     text-align:center;
     font-family: 'Quicksand', sans-serif;
@@ -103,9 +103,9 @@ nav > a:hover {
 
 #select-neighborhood {
   padding-top: 5%;
-  color: white;
+  color: black;
   font-family: 'Quicksand', sans-serif;
-  font-size: 30px;
+  font-size: 0.2em;
 }
 
 #neighborhood-border {
